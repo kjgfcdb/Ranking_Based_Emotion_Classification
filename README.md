@@ -34,7 +34,13 @@ Code for "Ranking Based Multi-Label Classification for Sentiment Analysis" LKE 2
 3. Train the model
 
    ```bash
-   python bert_classifier.py
+   python3 bert_classifier.py
    ```
 
-   
+### References
+
+* [Pytorch-transformers](https://github.com/huggingface/pytorch-transformers)
+
+* [Sentence emotion analysis and recognition based on emotion words using ren-cecps](https://www.researchgate.net/publication/229049748_Sentence_Emotion_Analysis_and_Recognition_Based_on_Emotion_Words_Using_Ren-CECps)
+
+* [Relevant Emotion Ranking from Text Constrained with Emotion Relationships](https://www.researchgate.net/publication/325449027_Relevant_Emotion_Ranking_from_Text_Constrained_with_Emotion_Relationships)
