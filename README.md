@@ -11,13 +11,15 @@ Code for "Ranking Based Multi-Label Classification for Sentiment Analysis" LKE 2
    Unzip these datasets in `data` folder and use the `parser.py` to convert them into `.json` format.
 
    ```bash
+   mkdir data && cd data
+   # unzip the datasets in `data`
    python3 parser.py
    ```
 
 2. Download pretrained model
 
    ```bash
-   cd models
+   mkdir models && cd models
    mkdir bert-base-chinese && cd bert-base-chinese
    wget https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz
    tar -zxvf bert-base-chinese.tar.gz
